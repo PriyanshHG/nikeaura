@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ArrowRight, Cpu, Eye, Info, RefreshCw, Sparkles, Target } from 'lucide-react';
+import nikeAuraConcept from '../assets/images/nike_aura_concept_1782536813615.jpg';
 
 interface HeroProps {
   onSyncClick: () => void;
@@ -122,7 +123,7 @@ export default function Hero({ onSyncClick }: HeroProps) {
             {/* The Generated High-End Image */}
             <div className="absolute inset-0 z-0">
               <img
-                src="/src/assets/images/nike_aura_concept_1782536813615.jpg"
+                src={nikeAuraConcept}
                 alt="Nike Aura AI-Powered Human Performance Footwear"
                 className="w-full h-full object-cover opacity-90 transition-transform duration-1000 group-hover:scale-105"
                 referrerPolicy="no-referrer"
