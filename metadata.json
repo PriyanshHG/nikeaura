@@ -1,0 +1,6 @@
+{
+  "name": "NIKE AURA",
+  "description": "A high-impact, minimalist concept landing page illustrating the hypothetical launch of Nike's first AI-powered human performance ecosystem.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

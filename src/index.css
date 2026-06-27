@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-nike-volt: #D2FC00;
+  --color-nike-black: #0B0B0C;
+  --color-nike-dark: #141416;
+  --color-nike-gray: #242427;
+  --color-nike-light: #F5F5F7;
+  --color-nike-blue: #00F5FF;
+}
+
+/* Custom scanline or biometric glow effects */
+.glow-volt {
+  box-shadow: 0 0 25px rgba(210, 252, 0, 0.25);
+}
+
+.glow-blue {
+  box-shadow: 0 0 25px rgba(0, 245, 255, 0.25);
+}
+
+.text-stroke-nike {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.15);
+  color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0B0C;
+}
+::-webkit-scrollbar-thumb {
+  background: #242427;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D2FC00;
+}
+
