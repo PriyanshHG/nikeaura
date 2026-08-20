@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
 
-# Run and deploy your AI Studio app
+### One thing I'd definitely keep
 
-This contains everything you need to run your app locally.
+This line:
 
-View your app in AI Studio: https://ai.studio/apps/02d9e985-5897-40f8-b206-f3e5fe5c3f0f
+> **“the interface between human willpower and physical synchronization.”**
 
-## Run Locally
+That's actually the **money line** of the concept. Don't bury it in a README.
 
-**Prerequisites:**  Node.js
+And because this is a **Nike concept**, I'd explicitly say:
 
+> **“Not affiliated with or endorsed by Nike.”**
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+That makes the project boundary crystal clear.
+
+Also, **don't call it a “Nike e-commerce project”** in your GitHub description. It's much more interesting than that.
+
+GitHub description could simply be:
+
+> **A speculative Nike concept exploring responsive athletic apparel, biometric feedback, and the future of human-performance technology.**
+
+That sounds like a project someone might actually click on. 👀
